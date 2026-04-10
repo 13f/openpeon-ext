@@ -1,0 +1,9 @@
+name: openpeon-hook
+version: 1.0.0
+description: "OpenPeon sound effects plugin — plays random peon sounds on session start/end events."
+author: jerin
+requires_env: []
+provides_tools: []
+hooks:
+  - on_session_start
+  - on_session_end
