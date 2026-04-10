@@ -1,10 +1,10 @@
 # openpeon-ext
 
-> extesions / plugins / hooks for [openpeon](https://github.com/PeonPing/openpeon)
+extesions / plugins / hooks for [openpeon](https://github.com/PeonPing/openpeon)
 
 ---
 
-| openpeon events | When to play |
+| openpeon events | when to play |
 |---|---|
 | `session.start` | Session or workspace opens |
 | `task.acknowledge` | Tool accepted work, is processing |
@@ -12,6 +12,10 @@
 | `task.error` | Something failed |
 | `input.required` | Blocked, waiting for user |
 | `resource.limit` | Rate/token/quota limit hit |
+| extended |  |
+| `user.spam` | User sending commands too fast |
+| `session.end` | Session closes |
+| `task.progress` | Long task still running |
 
 | [Hermes Agent](./.hermes/plugins/openpeon-hook) | openpeon event | Mac | Linux | Windows |
 |---|---|---|---|---|
